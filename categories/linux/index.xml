@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on QTech</title>
+    <link>https://Qtekno.github.io/categories/linux/</link>
+    <description>Recent content in Linux on QTech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://Qtekno.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eksplorasi dengan Wildcard</title>
+      <link>https://Qtekno.github.io/2021-11-07-eksplorasi-dengan-wildcard/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-eksplorasi-dengan-wildcard/</guid>
+      <description>Berikut beberapa contoh eksplorasi yang bisa dilakukan pada wildcard di Linux. Memanfaatkan fitur wildcard membuat pekerjaan menjadi lebih efektif.
+$ rm * $ mv *linux .html dir1 $ less d*.txt $ rm junk.??? $ ls hda[0-9] $ ls hda[0-9][0-9] Penjelasan perintah di atas:
+ Perintah untuk menghapus seluruh file di direktori aktif. Hati-hati dalam menggunakan perintah ini, karena kesalahan menentukan direktori aktif akan berakibat fatal. File yang terhapus tidak dapat dikembalikan (undelete).</description>
+    </item>
+    
+    <item>
+      <title>grep atau egrep</title>
+      <link>https://Qtekno.github.io/2021-11-07-grep-atau-egrep/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-grep-atau-egrep/</guid>
+      <description>Linux Regular Expressions are special characters which help search data and matching complex patterns. Regular expressions are shortened as &amp;lsquo;RegExp&amp;rsquo; or &amp;lsquo;RegEx&amp;rsquo;. They are used in many Linux programs like grep, bash, rename, sed, etc.
+ Regular expression atau lebih dikenal dengan RegEx (RegExp) merupakan &amp;ldquo;alat&amp;rdquo; ampuh untuk manipulasi teks dan data. RegEx, dapat menghemat waktu dan tenaga dalam menangani dokumen, baik file log, e-mail, maupun berbagai tipe teks dan data.</description>
+    </item>
+    
+    <item>
+      <title>Kerja Efisien dengan Wildcard</title>
+      <link>https://Qtekno.github.io/2021-11-07-kerja-efisien-dengan-wildcard/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-kerja-efisien-dengan-wildcard/</guid>
+      <description>Wildcard adalah fitur yang membuat CLI lebih powerfull dibandingkan dengan file manager GUI. Wildcard adalah karakter khusus yang memungkinkan kita memilih nama file yang cocok dengan pola tertentu dari karakter. Cara ini lebih mudah dan cepat dibandingkan menggunakan mouse!
+Wildcard (seringkali juga disebut sebagai karakter meta) merupakan simbol atau karakter khusus yang mewakili karakter lain. Kita dapat menggunakannya dengan perintah apa pun seperti perintah ls atau perintah rm untuk membuat daftar atau menghapus file yang cocok dengan kriteria tertentu, secara reseptif.</description>
+    </item>
+    
+    <item>
+      <title>Pengantar Sistem Operasi</title>
+      <link>https://Qtekno.github.io/2021-11-07-pengantar-sistem-operasi/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-pengantar-sistem-operasi/</guid>
+      <description>Sistem Operasi merupakan seperangkat program yang mengelola sumber daya, perangkat keras sistem komputer dan menyediakan layanan umum untuk aplikasi perangkat lunak
+ Komputer modern merupakan sistem yang kompleks. Secara fisik kita dapat melihat komponen komputer seperti: prosesor, memori, disk, printer serta perangkat lainnya. Perangkat keras tersebut hanyalah salah satu komponen dari sebuah “sistem komputer”. Komponen Sistem Komputer lainnya, adalah Perangkat Lunak dan Users. Perangkat keras tidak akan dapat berbuat apa apa tanpa adanya perangkat lunak.</description>
+    </item>
+    
+    <item>
+      <title>Perintah Melihat Hardware</title>
+      <link>https://Qtekno.github.io/2021-11-07-perintah-melihat-hardware/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-perintah-melihat-hardware/</guid>
+      <description>Linux sebagai sistem operasi telah dilengkapi berbagai utilitas untuk melakukan tugas tertentu, salah satunya adalah utilitas untuk melihat system linux termasuk informasi hardaware di sistem Linux yang digunakan. Berikut ini beberapa perintah untuk menampilkan informasi hadware mesin (komputer) secara detail yang perlu kita ketahui.
+Informasi tentang CPU Untuk melihat spesifikasi cpu, kita dapat menggunakan perintah:
+ cat /proc/cpuinfo lscpu  $ cat /etc/cpuinfo vendor_id	: AuthenticAMD cpu family	: 21 model	: 112 model name	: AMD A9-9425 RADEON R5, 5 COMPUTE CORES 2C+3G stepping	: 0 microcode	: 0x6006704 cpu MHz	: 1906.</description>
+    </item>
+    
+    <item>
+      <title>Redirection 1</title>
+      <link>https://Qtekno.github.io/2021-11-07-redirection/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-redirection/</guid>
+      <description>Salah satu kekuatan terbesar dari UNIX/ Linux adalah kemampuannya untuk memanipulasi teks dan stream yang tidak dipunyai oleh sistem operasi Windows. Linux Engineer wajib hukumnya untuk menguasai cara memanipulasi teks (stream) melalui CLI. Untuk sementara tinggalkan dahulu interface GUI lalu rasakan kekuatan Linux yang sebenarnya.
+Linux memiliki special device untuk I/O, yaitu standard input atau stdin, standard ouput disebut stdout, dan standard error atau stderr.
+ Shell mengambil input dari stdin (stream 0) dan mengirimkan output ke stdout (stream 1) dan pesan error ke stderr (stream 2) Keyboard berfungsi sebagai stdin.</description>
+    </item>
+    
+  </channel>
+</rss>

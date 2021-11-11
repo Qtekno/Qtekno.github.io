@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>statistik on QTech</title>
+    <link>https://Qtekno.github.io/tags/statistik/</link>
+    <description>Recent content in statistik on QTech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://Qtekno.github.io/tags/statistik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Manfaat Belajar R</title>
+      <link>https://Qtekno.github.io/2021-11-07-belajar-r/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-belajar-r/</guid>
+      <description>Matakuliah Probabilitas &amp;amp; Statistika, Data Mining mengajak kita belajar untuk membaca data, analisa, interpretasi, serta belajar dasar-dasar pemrograman R sebagai bekal dasar di dunia Data Science atau mechine learning.
+ Tentunya kita sudah atau sering mendengar bahasa pemrograman seperti C, C++, Python, Javascript, Java, PHP, SQL dengan keistemewaannya masing-masing. R merupakan aplikasi dan sekaligus bahasa pemrograman. Dengan mempelajari bahasa R, kalian akan mendapatkan manfaat dan fungsi:
+ Manajemen data. R dapat melakukan import data, assessment kualitas data dengan mengidentifikasi outliers, observasi data, penggabungan data dan penyusunan data.</description>
+    </item>
+    
+  </channel>
+</rss>

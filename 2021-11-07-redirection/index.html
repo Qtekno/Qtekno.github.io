@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo 0.89.0" />
+  <link rel="stylesheet" href="https://Qtekno.github.io/css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+  
+  
+  <link rel="stylesheet" href="https://Qtekno.github.io/css/cayman.c4f79ffddc7a96ac05f73e18e2ec31d562450420cb5377546f3e7ed7cf332ed0.css">
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+  <title>Redirection 1 | QTech</title>
+</head>
+
+<body>
+  <section class="page-header">
+  <h1 class="project-name">
+    QTekno
+  </h1>
+  <h2 class="project-tagline">
+    Pemerhati Open Source | R | WSN | Mikrotik | Linux
+  </h2>
+  <nav>
+    
+    
+      
+      
+      
+      
+      <a href="/about/" class="btn">About</a>
+    
+      
+      
+      
+      
+      <a href="/" class="btn">Blog</a>
+    
+      
+      
+      
+      
+      <a href="/categories/" class="btn">Categories</a>
+    
+      
+      
+      
+      
+      <a href="/tags/" class="btn">Tags</a>
+    
+      
+      
+      
+      
+      <a href="/wsn/" class="btn">WSN</a>
+    
+      
+      
+      
+      
+      <a href="/gclass/" class="btn">GClass</a>
+    
+  </nav>
+</section>
+
+  <section class="main-content">
+    
+  <h1>Redirection 1</h1>
+  <div>
+    
+    <strong>Publish date: </strong>2021-11-07
+  </div>
+  
+  
+    <div>
+      <strong>Tags: </strong>
+      
+        
+        
+        
+      
+        
+        
+        
+      
+        
+        
+        
+      
+      <a href="https://Qtekno.github.io/tags/redirection/">redirection</a>, <a href="https://Qtekno.github.io/tags/stream/">stream</a>, <a href="https://Qtekno.github.io/tags/file-deskriptor/">file deskriptor</a>
+    </div>
+  
+  <p>Salah satu kekuatan terbesar dari UNIX/ Linux adalah kemampuannya untuk memanipulasi teks dan stream yang tidak dipunyai oleh sistem operasi Windows. <em>Linux Engineer</em> wajib hukumnya untuk menguasai cara memanipulasi teks (stream) melalui CLI. Untuk sementara tinggalkan dahulu interface GUI lalu rasakan kekuatan Linux yang sebenarnya.</p>
+<p>Linux memiliki special device untuk I/O, yaitu standard input atau stdin, standard ouput disebut stdout, dan standard error atau stderr.</p>
+<ol>
+<li>Shell mengambil input dari stdin (stream 0) dan mengirimkan output ke stdout (stream 1) dan pesan error ke stderr (stream 2)</li>
+<li>Keyboard berfungsi sebagai stdin. Display (monitor) berfungsi sebagai stdout dan stderr</li>
+</ol>
+<p>Banyak program CLI memanfaatkan fitur input/ output redirection.  Pengalihan arah (Redirection) adalah fasilitas/ fitur shell yang memungkinkan hasil (output) suatu perintah yang normalnya ke layar dipindahkan ke disk (menjadi sebuah file) atau masukan (input) yang normalnya berasal dari keyboard dialihkan ke file.</p>
+<p>Apa yang kita ketik di terminal termasuk input, dan yang keluar dari terminal namanya output. Input tidak harus ada di terminal, begitu juga output. Input dan output bisa berupa file. Pembelokan dilakukan untuk standard input, proses, output dan error, yaitu untuk mengalihkan file descriptor dari 0,1,2. Simbol pembelokan yang digunakan adalah:</p>
+<ol>
+<li>0&lt;  atau  &lt;  Pengganti Standar Input</li>
+<li>1&gt; atau &gt; Pengganti Standar Output</li>
+<li>2&gt;  Standar Error</li>
+</ol>
+<p>File Deskriptor? File descriptor merupakan index pada tabel yang dimiliki kernel untuk menunjukkan file yang dibuka pada proses-proses yang berjalan. Untuk melihat apa saja file-file yang dibuka oleh kernel, dapat digunakan command lsof.</p>
+<p>File descriptor adalah sebuah abstraksi yang digunakan dalam pengaksesan file yang dilambangkan dalam sebuah integer. Untuk setiap proses, terdapat 3 file descriptor yang telah dimiliki, yaitu:</p>
+<ol>
+<li>0 = keyboard (standar input)</li>
+<li>1 = layar (standar output)</li>
+<li>2 = layar (standar error)</li>
+</ol>
+<p><img src="/images/linux/deskriptor1.png#center" alt=""></p>
+<p>Untuk memperjelas konsep di atas, kita ambil contoh berikut:</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat /etc/passwd
+</code></pre></div><p>“cat” adalah perintah (programmnya) dan file “/etc/passwd” adalah filenya. Ketika menekan tombol “Enter” outputnya ditampilkan di layar. Input ke program dan output dari program di Linux dikenal sebagai stream (aliran). Input biasanya berasal dari keyboard dan outputnya masuk ke layar.</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat /etc/passwd &gt; isi_passwd.txt
+</code></pre></div><p>Perintah di atas akan mengarahkan keluaran dari perintah cat ke file bernama isi_passwd. Setiap kali perintah dijalankan, file isi_passwd.txt akan ditimpa dengan hasil perintah cat. Jika kita ingin menambahkan (append) hasil baru ke file isi_passwd.txt ketimbang menimpanya, kita dapat menggunakan simbol &lsquo;&raquo;&rsquo;.</p>
+<div class="highlight"><pre tabindex="0" style=";-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cat /etc/passwd &gt;&gt; isi_passwd.txt
+</code></pre></div><p>Semoga tulisan ini bermanfaat.</p>
+
+  
+
+  
+
+
+
+    <footer class="site-footer">
+  <span class="site-footer-credits">
+    QTech.inc 2021
+  </span>
+</footer>
+
+  </section>
+  
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-123456789-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+</body>
+</html>

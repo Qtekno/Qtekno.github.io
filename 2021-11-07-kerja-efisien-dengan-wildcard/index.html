@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo 0.89.0" />
+  <link rel="stylesheet" href="https://Qtekno.github.io/css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+  
+  
+  <link rel="stylesheet" href="https://Qtekno.github.io/css/cayman.c4f79ffddc7a96ac05f73e18e2ec31d562450420cb5377546f3e7ed7cf332ed0.css">
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+  <title>Kerja Efisien dengan Wildcard | QTech</title>
+</head>
+
+<body>
+  <section class="page-header">
+  <h1 class="project-name">
+    QTekno
+  </h1>
+  <h2 class="project-tagline">
+    Pemerhati Open Source | R | WSN | Mikrotik | Linux
+  </h2>
+  <nav>
+    
+    
+      
+      
+      
+      
+      <a href="/about/" class="btn">About</a>
+    
+      
+      
+      
+      
+      <a href="/" class="btn">Blog</a>
+    
+      
+      
+      
+      
+      <a href="/categories/" class="btn">Categories</a>
+    
+      
+      
+      
+      
+      <a href="/tags/" class="btn">Tags</a>
+    
+      
+      
+      
+      
+      <a href="/wsn/" class="btn">WSN</a>
+    
+      
+      
+      
+      
+      <a href="/gclass/" class="btn">GClass</a>
+    
+  </nav>
+</section>
+
+  <section class="main-content">
+    
+  <h1>Kerja Efisien dengan Wildcard</h1>
+  <div>
+    
+    <strong>Publish date: </strong>2021-11-07
+  </div>
+  
+  
+    <div>
+      <strong>Tags: </strong>
+      
+        
+        
+        
+      
+      <a href="https://Qtekno.github.io/tags/wildcard/">wildcard</a>
+    </div>
+  
+  <p>Wildcard adalah fitur yang membuat CLI lebih powerfull dibandingkan dengan file manager GUI. Wildcard adalah karakter khusus yang memungkinkan kita memilih nama file yang cocok dengan pola tertentu dari karakter. Cara ini lebih mudah dan cepat dibandingkan menggunakan mouse!</p>
+<p>Wildcard (seringkali juga disebut sebagai karakter meta) merupakan simbol atau karakter khusus yang mewakili karakter lain. Kita dapat menggunakannya dengan perintah apa pun seperti perintah ls atau perintah rm untuk membuat daftar atau menghapus file yang cocok dengan kriteria tertentu, secara reseptif. Wildcard ini ditafsirkan oleh shell dan hasilnya dikembalikan ke perintah yang kita jalankan.</p>
+<p>Sejumlah wildcard yang sering digunakan pada bash adalah:</p>
+<ol>
+<li>Tanda bintang (*), cocok dengan satu atau lebih kemunculan karakter apa pun, termasuk tanpa karakter (nol atau lebih karakter). Contoh: mp* bisa berarti mp, mp3, mp4, atau mp apa saja</li>
+<li>Tanda tanya (?), mewakili atau cocok dengan kemunculan satu karakter apa pun. Contoh: *mp? akan match file dengan ekstensi mp3, mp4, mpg, mp2, dan mp apa saja. *mp? artinya, karakter apa saja dengan jumlah berapa saja, diikuti karakter mp, dan diikuti satu karakter apa saja.</li>
+<li>Karakter braket [abcde], tepat satu karakter di dalamnya. Contoh: *.[mj]pg bisa dibaca karakter apa saja dengan jumlah berapa saja, diikuti tanda titik (.), terus diikuti karakter m atau j, dan diikuti karakter pg.</li>
+<li>Karakter [a-e], tepat satu karakter dalam range tersebut.</li>
+<li>[!abcde], setiap karakter yang tidak terdapat di dalamnya. Contoh: Kalau [mj] berarti m atau j, [!mj] berarti apa saja selain m dan j.</li>
+<li>[!a-e], setiap karakter yang tidak terdapat di dalam range.</li>
+<li>[debian,linux], tepat satu dari kata tersebut.</li>
+<li>Curly backets atau kurung kurawal ({}). Kalau kurung siku bisa dibaca atau, kurung kurawal ini bisa dibaca dan. Bedanya juga, di kurung kurawal masing-masing pattern dipisah pakai koma. Contoh: {o,p}df berarti odf dan pdf.</li>
+</ol>
+<p>Kita bisa memanfaatkan wildcard dengan perintah manapun yang menerima nama file sebagai argumen.</p>
+<p>Semoga tulisan ini bermanfaat.</p>
+
+  
+
+  
+
+
+
+    <footer class="site-footer">
+  <span class="site-footer-credits">
+    QTech.inc 2021
+  </span>
+</footer>
+
+  </section>
+  
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-123456789-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo 0.89.0" />
+  <link rel="stylesheet" href="https://Qtekno.github.io/css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+  
+  
+  <link rel="stylesheet" href="https://Qtekno.github.io/css/cayman.c4f79ffddc7a96ac05f73e18e2ec31d562450420cb5377546f3e7ed7cf332ed0.css">
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+  <title>Pengenalan ggplot2 Bag. 1 | QTech</title>
+</head>
+
+<body>
+  <section class="page-header">
+  <h1 class="project-name">
+    QTekno
+  </h1>
+  <h2 class="project-tagline">
+    Pemerhati Open Source | R | WSN | Mikrotik | Linux
+  </h2>
+  <nav>
+    
+    
+      
+      
+      
+      
+      <a href="/about/" class="btn">About</a>
+    
+      
+      
+      
+      
+      <a href="/" class="btn">Blog</a>
+    
+      
+      
+      
+      
+      <a href="/categories/" class="btn">Categories</a>
+    
+      
+      
+      
+      
+      <a href="/tags/" class="btn">Tags</a>
+    
+      
+      
+      
+      
+      <a href="/wsn/" class="btn">WSN</a>
+    
+      
+      
+      
+      
+      <a href="/gclass/" class="btn">GClass</a>
+    
+  </nav>
+</section>
+
+  <section class="main-content">
+    
+  <h1>Pengenalan ggplot2 Bag. 1</h1>
+  <div>
+    
+    <strong>Publish date: </strong>2021-11-11
+  </div>
+  
+  
+    <div>
+      <strong>Tags: </strong>
+      
+        
+        
+        
+      
+      <a href="https://Qtekno.github.io/tags/ggplot2/">ggplot2</a>
+    </div>
+  
+  
+<script src="https://Qtekno.github.io/2021-11-11-pengenalan-ggplot2-1/index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<p>Analisis statistik sederhana dapat memberikan deskripsi tentang karakteristik dari data dalam dataset. Analisis ini bertujuan untuk dapat mengeksplorasi data dan menemukan hubungan antarvariabel yang mungkin ada.</p>
+<p>Eksplorasi data merupakan langkah awal dalam analisis data yang melibatkan rangkuman karakteristik utama dari set data termasuk ukurannya, pola awal dalam data dan atribut-atrubut lainnya. Eksplorasi data merupakan teknik yang cukup sederhana tetapi sangat powerfull dari segi manfaat.</p>
+<p>Eksplorasi data tidak hanya dilakukan dengan mengukur frekuensi, ukuran pemusatan (mean,modus,median, max, min dll), ukuran penyebaran (standar deviasi, varians, dll) tetapi perlu melihat visualisasi dari data tersebut. Artinya, ekplorasi dilakukan untuk memperoleh gambaran secara lengkap dan mendalam mengenai data yang dimiliki tanpa mebuat <strong>kesimpulan</strong> secara umum.</p>
+<p>Statistik deskriptif menggunakan prosedur numerik dan grafis dalam meringkas gugus data dengan cara yang jelas dan dapat dimengerti. Statistik Deskriptif membantu untuk menyederhanakan data dalam jumlah besar dengan cara yang logis. Data yang banyak direduksi dan diringkas sehingga lebih sederhana dan lebih mudah diinterpretasi.</p>
+<p>Sedangkan visualisasi data akan mengubah kumpulan data menjadi sesuatu yang lebih sederhana untuk ditampilkan. Visualisasi data baik data kualitatif ataupun data kuantitatif dapat berbentuk bermacam-macam hal. Secara umum, visualisasi data kuantitatif akan berupa grafik dan visualisasi data kualitatif akan berupa diagram atau peta. Melakukan visualisasi data perlu memperhatikan pemilihan grafik yang akan digunakan.</p>
+<p>Manfaat visualisasi data adalah:</p>
+<ol style="list-style-type: decimal">
+<li>Visualisasi data berguna untuk mengkomunikasikan hasil analisa yang telah dilakukan dan dapat membantu dalam memutuskan metode analisa yang tepat pada data tersebut.</li>
+<li>Visualisasi data mempermudah untuk menarik kesimpulan dengan melihat tren atau pola yang ada.</li>
+<li>Visualisasi data dapat digunakan untuk mengetahui keberadaan pencilan data.</li>
+</ol>
+<p>Berikut beberapa contoh visualisasi data yang dapat dilakukan pada program R:</p>
+<ol style="list-style-type: decimal">
+<li><p>Histogram dan Density plot merupakan cara visualisasi distribusi data variabel numerik. Histogram atau density plot akan memberikan gambaran distribusi dari suatu data bersifat simetris atau tidak. Hal ini terkait dengan asumsi yang digunakan untuk analisa statistik yang akan digunakan pada data.</p></li>
+<li><p>Scatterplot adalah salah satu tipe grafik yang menampilkan titik-titik dalam koordinat Cartesian (sumbu X dan Y) untuk menunjukkan hubungan antar dua dataset dan dapat melihat kekuatan hubungan melalui nilai korelasi antar kedua datanya. Untuk membuat scatter plot matriks pada r dapat menggunakan fungsi pairs() atau mengguakan fungsi pairs.panels() pada paket psych.</p>
+<p>Berbeda dengan fungsi pairs(), pada fungsi pairs.panels() plot yang dihasilkan akan meliputi scatter plot, histogram dan density plot variabel kontinyu, serta nilai koefisien Korelasi Pearson. Hal ini menyebabkan grafik yang dihasilkan menggunakan fungsi ini menjadi lebih ringkas.</p></li>
+<li><p>Bar chart merupakan salah satu cara untuk memvisualisasikan variabel kategori. Bar chart terdiri atas elemen axis berupa data kategori sedangkan axis lainnya merupakan nilai (rata-rata, frekuensi, dll) dari variabel kategori tersebut.</p></li>
+<li><p>Pie chart ditampilkan dalam bentuk lingkaran yang terbagi dengan ukuran panjang busur tertentu untuk menunjukkan perbandingan jumlah data. Pie chart ini lebih baik digunakan jika kategori datanya tidak terlalu banyak.</p></li>
+<li><p>Tabel frekuensi merupakan bentuk deskripsi umum yang digunakan untuk data kategorik. Nilai data dijabarkan ke dalam suatu kolom yang disebut kolom frekuensi. Angka yang diperlihatkan dari setiap baris di dalam kolom frekuensi memudahkan seseorang untuk mengetahui mana nilai data terkecil ataupun nilai data yang terbesar.</p></li>
+<li><p>Cross table juga biasa disebut dengan istilah pivot table. Cross table digunakan untuk memperlihatkan hubungan nilai diantara sejumlah variabel.</p></li>
+<li><p>Box plot merupakan salah satu cara untuk memvisualisasikan distribusi suatu data. Dapat melihat bentuk distribusi data serta membandingkan disstribusi antar data yang lain menggunakan box plot.</p></li>
+<li><p>Strip chart merupakan salah satu metode visualisasi data kategorikal terhadap data numerik. Strip chart juga disebut sebagai scatter plot 1 dimensi atau dot plot. Metode visualisasi ini bagus untuk melihat sebaran nilai data berdasarkan kategori data (grup data) dengan jumlah data relatif kecil sehingga metode ini juga dapat menjadi alternatif visualisasi selain box plot dengan jumlah data yang kecil.</p></li>
+<li><p>Normal QQ-plot merupakan sebuah plot probabilitas yang berguna untuk melihat secara visual apakah ditribusi suatu data mengikuti distribusi tertentu. Jika distribusi data mengikuti distribusi normal, maka sebaran data akan mengikuti garis referensi distribusi normal.</p></li>
+<li><p>Dot plot atau plot titik merupakan penayangan grafik dua dimensi dari objek yang menunjukkan karakteristik kuantitatifnya. Satu sumbu datar mencantumkan nilai kuantitatif yang akan diplotkan dan sumbu tegak menunjukkan label yang berhubungan dengan setiap nilai numeriknya. Dot plot membantu memvisualisasikan variabel kategori sehingga dapat lebih mudah memperoleh informasi dari data.</p></li>
+<li><p>Plot Group Means dapat digunakan untuk memplotkan variabel kategori terhadap nilai rata-rata masing-masing kategorinya. Umumnya plot ini digunakan sebelum dilakukan uji Anova untuk melihat apakah terdapat efek pada faktor tunggal maupun interaksinya.</p></li>
+<li><p>Line chart dapat dibuat menggunakan fungsi plot(x,y, type= ) dimana x dan y merupakan titik vektor numerim yang saling dihubungkan. Plot tidak dapat langsung dilakukan menggunakan fungsi lines(). Jika melakukan plot langsung menggunakan fungsi tersebut maka tidak ada plot yang akan dihasilkan karena pada dasarnya fungsi tersebut merupakan fungsi tambahan setelah plot().</p></li>
+</ol>
+<p>Sebelum mengimplementasikan visualisasi secara teknis, harus memperhatikan cara memilih jenis grafik (chart) yang benar. Terdapat empat jenis penyajian dasar:</p>
+<ol style="list-style-type: decimal">
+<li>Comparison (Perbandingan)</li>
+<li>Composition (Komposisi)</li>
+<li>Distribution (Distribusi)</li>
+<li>Relationship (Relasi/Hubungan)</li>
+</ol>
+<p>Untuk menentukan yang mana di antara keempat jenis penyajian tersebut yang sesuai dengan data Anda, disarankan untuk menjawab pertanyan-pertanyaan seperti:</p>
+<ol style="list-style-type: decimal">
+<li>berapa banyak variabel yang ingin Anda tampilkan dalam sebuah grafik?</li>
+<li>berapa banyak poin data (data points) yang akan Anda tampilkan untuk setiap variabel?</li>
+<li>apakah akan menampilkan nilai-nilai selama periode waktu tertentu, atau di antara item atau kelompok?</li>
+</ol>
+<p>Demikian tulisan tentang eksplorasi data dan visualisasi data. Semoga bermanfaat</p>
+
+  
+
+  
+
+
+
+    <footer class="site-footer">
+  <span class="site-footer-credits">
+    QTech.inc 2021
+  </span>
+</footer>
+
+  </section>
+  
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-123456789-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on QTech</title>
+    <link>https://Qtekno.github.io/categories/r/</link>
+    <description>Recent content in R on QTech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://Qtekno.github.io/categories/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pengenalan ggplot2 Bag. 1</title>
+      <link>https://Qtekno.github.io/2021-11-11-pengenalan-ggplot2-1/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-11-pengenalan-ggplot2-1/</guid>
+      <description>Analisis statistik sederhana dapat memberikan deskripsi tentang karakteristik dari data dalam dataset. Analisis ini bertujuan untuk dapat mengeksplorasi data dan menemukan hubungan antarvariabel yang mungkin ada.
+Eksplorasi data merupakan langkah awal dalam analisis data yang melibatkan rangkuman karakteristik utama dari set data termasuk ukurannya, pola awal dalam data dan atribut-atrubut lainnya. Eksplorasi data merupakan teknik yang cukup sederhana tetapi sangat powerfull dari segi manfaat.
+Eksplorasi data tidak hanya dilakukan dengan mengukur frekuensi, ukuran pemusatan (mean,modus,median, max, min dll), ukuran penyebaran (standar deviasi, varians, dll) tetapi perlu melihat visualisasi dari data tersebut.</description>
+    </item>
+    
+    <item>
+      <title>Pengenalan ggplot2 Bag. 2</title>
+      <link>https://Qtekno.github.io/2021-11-11-pengenalan-ggplot2-2/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-11-pengenalan-ggplot2-2/</guid>
+      <description>ggplot2 merupakan paket di R yang bebas diunduh dan digunakan untuk membuat berbagai bentuk grafik. Untuk memasang ggplot2, cukup memasang R, RStudio, kemudian menulis perintah:
+install.packages(&amp;quot;ggplot2&amp;quot;) library(ggplot2) ggplot2 adalah salah satu package yang banyak digunakan oleh pengguna R untuk kebutuhan visualisasi. ggplot2 didesain untuk bekerja secara iteratif. Kata ggplot sendiri merupakan kependekan dari 8grammar of graphics plot*. Terdapat dua fungsi utama yang digunakan untuk visualisasi data.
+Fungsi qplot(), yang merupakan kependekan dari quick-plot.</description>
+    </item>
+    
+    <item>
+      <title>Manfaat Belajar R</title>
+      <link>https://Qtekno.github.io/2021-11-07-belajar-r/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-belajar-r/</guid>
+      <description>Matakuliah Probabilitas &amp;amp; Statistika, Data Mining mengajak kita belajar untuk membaca data, analisa, interpretasi, serta belajar dasar-dasar pemrograman R sebagai bekal dasar di dunia Data Science atau mechine learning.
+ Tentunya kita sudah atau sering mendengar bahasa pemrograman seperti C, C++, Python, Javascript, Java, PHP, SQL dengan keistemewaannya masing-masing. R merupakan aplikasi dan sekaligus bahasa pemrograman. Dengan mempelajari bahasa R, kalian akan mendapatkan manfaat dan fungsi:
+ Manajemen data. R dapat melakukan import data, assessment kualitas data dengan mengidentifikasi outliers, observasi data, penggabungan data dan penyusunan data.</description>
+    </item>
+    
+    <item>
+      <title>Mengenal R</title>
+      <link>https://Qtekno.github.io/2021-11-07-mengenal-r/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-mengenal-r/</guid>
+      <description>“R is a scripting language for statistical data manipulation and analysis. It was inspired by, and is mostly compatible with, the statistical language S developed by AT&amp;amp;T.The name S, obviously standing for statistics, was an allusion to another programming language developed at AT&amp;amp;T with a one-letter name, C. S later was sold to a small firm, which added a GUI interface and named the result S-Plus. (Norman Matloff, The Art of R Programming)</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://Qtekno.github.io/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://Qtekno.github.io/2020-12-01-r-rmarkdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
+    </item>
+    
+  </channel>
+</rss>

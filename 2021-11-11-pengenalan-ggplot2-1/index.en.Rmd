@@ -1,0 +1,69 @@
+---
+title: Pengenalan ggplot2 Bag. 1
+author: bayuwi
+date: '2021-11-11'
+slug: pengenalan-ggplot2
+categories:
+  - R
+tags:
+  - ggplot2
+---
+
+Analisis statistik sederhana dapat memberikan deskripsi tentang karakteristik dari data dalam dataset. Analisis ini bertujuan untuk dapat mengeksplorasi data dan menemukan hubungan antarvariabel yang mungkin ada.
+
+Eksplorasi data merupakan langkah awal dalam analisis data yang melibatkan rangkuman karakteristik utama dari set data termasuk ukurannya, pola awal dalam data dan atribut-atrubut lainnya. Eksplorasi data merupakan teknik yang cukup sederhana tetapi sangat powerfull dari segi manfaat.
+
+Eksplorasi data tidak hanya dilakukan dengan mengukur frekuensi, ukuran pemusatan (mean,modus,median, max, min dll), ukuran penyebaran (standar deviasi, varians, dll) tetapi perlu melihat visualisasi dari data tersebut. Artinya, ekplorasi dilakukan untuk memperoleh gambaran secara lengkap dan mendalam mengenai data yang dimiliki tanpa mebuat **kesimpulan** secara umum.
+
+Statistik deskriptif menggunakan prosedur numerik dan grafis dalam meringkas gugus data dengan cara yang jelas dan dapat dimengerti. Statistik Deskriptif membantu untuk menyederhanakan data dalam jumlah besar dengan cara yang logis. Data yang banyak direduksi dan diringkas sehingga lebih sederhana dan lebih mudah diinterpretasi.
+
+Sedangkan visualisasi data akan mengubah kumpulan data menjadi sesuatu yang lebih sederhana untuk ditampilkan. Visualisasi data baik data kualitatif ataupun data kuantitatif dapat berbentuk bermacam-macam hal. Secara umum, visualisasi data kuantitatif akan berupa grafik dan visualisasi data kualitatif akan berupa diagram atau peta. Melakukan visualisasi data perlu memperhatikan pemilihan grafik yang akan digunakan.
+
+Manfaat visualisasi data adalah:
+
+1. Visualisasi data berguna untuk mengkomunikasikan hasil analisa yang telah dilakukan dan dapat membantu dalam memutuskan metode analisa yang tepat pada data tersebut.
+2. Visualisasi data mempermudah untuk menarik kesimpulan dengan melihat tren atau pola yang ada.
+3. Visualisasi data dapat digunakan untuk mengetahui keberadaan pencilan data.
+
+Berikut beberapa contoh visualisasi data yang dapat dilakukan pada program R:
+
+1. Histogram dan Density plot merupakan cara visualisasi distribusi data variabel numerik. Histogram atau density plot akan memberikan gambaran distribusi dari suatu data bersifat simetris atau tidak. Hal ini terkait dengan asumsi yang digunakan untuk analisa statistik yang akan digunakan pada data.
+
+2. Scatterplot adalah salah satu tipe grafik yang menampilkan titik-titik dalam koordinat Cartesian (sumbu X dan Y) untuk menunjukkan hubungan antar dua dataset dan dapat melihat kekuatan hubungan melalui nilai korelasi antar kedua datanya. Untuk membuat scatter plot matriks pada r dapat menggunakan fungsi pairs() atau mengguakan fungsi pairs.panels() pada paket psych.   
+
+   Berbeda dengan fungsi pairs(), pada fungsi pairs.panels() plot yang dihasilkan akan meliputi scatter plot, histogram dan density plot variabel kontinyu, serta nilai koefisien Korelasi Pearson. Hal ini menyebabkan grafik yang dihasilkan menggunakan fungsi ini menjadi lebih ringkas.
+
+3. Bar chart merupakan salah satu cara untuk memvisualisasikan variabel kategori. Bar chart terdiri atas elemen axis berupa data kategori sedangkan axis lainnya merupakan nilai (rata-rata, frekuensi, dll) dari variabel kategori tersebut.
+
+4. Pie chart ditampilkan dalam bentuk lingkaran yang terbagi dengan ukuran panjang busur tertentu untuk menunjukkan perbandingan jumlah data. Pie chart ini lebih baik digunakan jika kategori datanya tidak terlalu banyak.
+
+5. Tabel frekuensi  merupakan bentuk deskripsi umum yang digunakan untuk data kategorik. Nilai data dijabarkan ke dalam suatu kolom yang disebut kolom frekuensi. Angka yang diperlihatkan dari setiap baris di dalam kolom frekuensi memudahkan seseorang untuk mengetahui mana nilai data terkecil ataupun nilai data yang terbesar.
+
+6. Cross table juga biasa disebut dengan istilah pivot table. Cross table digunakan untuk memperlihatkan hubungan nilai diantara sejumlah variabel.
+
+7. Box plot merupakan salah satu cara untuk memvisualisasikan distribusi suatu data. Dapat melihat bentuk distribusi data serta membandingkan disstribusi antar data yang lain menggunakan box plot.
+
+8. Strip chart merupakan salah satu metode visualisasi data kategorikal terhadap data numerik. Strip chart juga disebut sebagai scatter plot 1 dimensi atau dot plot. Metode visualisasi ini bagus untuk melihat sebaran nilai data berdasarkan kategori data (grup data) dengan jumlah data relatif kecil sehingga metode ini juga dapat menjadi alternatif visualisasi selain box plot dengan jumlah data yang kecil.
+9. Normal QQ-plot merupakan sebuah plot probabilitas yang berguna untuk melihat secara visual apakah ditribusi suatu data mengikuti distribusi tertentu. Jika distribusi data mengikuti distribusi normal, maka sebaran data akan mengikuti garis referensi distribusi normal.
+
+10. Dot plot atau plot titik merupakan penayangan grafik dua dimensi dari objek yang menunjukkan karakteristik kuantitatifnya. Satu sumbu datar mencantumkan nilai kuantitatif yang akan diplotkan dan sumbu tegak menunjukkan label yang berhubungan dengan setiap nilai numeriknya. Dot plot membantu memvisualisasikan variabel kategori sehingga dapat lebih mudah memperoleh informasi dari data.
+
+11. Plot Group Means dapat digunakan untuk memplotkan variabel kategori terhadap nilai rata-rata masing-masing kategorinya. Umumnya plot ini digunakan sebelum dilakukan uji Anova untuk melihat apakah terdapat efek pada faktor tunggal maupun interaksinya.
+
+12. Line chart dapat dibuat menggunakan fungsi plot(x,y, type= ) dimana x dan y merupakan titik vektor numerim yang saling dihubungkan. Plot tidak dapat langsung dilakukan menggunakan fungsi lines(). Jika melakukan plot langsung menggunakan fungsi tersebut maka tidak ada plot yang akan dihasilkan karena pada dasarnya fungsi tersebut merupakan fungsi tambahan setelah plot().
+
+Sebelum mengimplementasikan visualisasi secara teknis, harus memperhatikan cara memilih jenis grafik (chart) yang benar. Terdapat empat jenis penyajian dasar:
+
+1. Comparison (Perbandingan)
+2. Composition (Komposisi)
+3. Distribution (Distribusi)
+4. Relationship (Relasi/Hubungan)
+
+Untuk menentukan yang mana di antara keempat jenis penyajian tersebut yang sesuai dengan data Anda, disarankan untuk menjawab pertanyan-pertanyaan seperti:
+
+1. berapa banyak variabel yang ingin Anda tampilkan dalam sebuah grafik?
+2. berapa banyak poin data (data points) yang akan Anda tampilkan untuk setiap variabel?
+3. apakah akan menampilkan nilai-nilai selama periode waktu tertentu, atau di antara item atau kelompok?
+
+
+Demikian tulisan tentang eksplorasi data dan visualisasi data. Semoga bermanfaat

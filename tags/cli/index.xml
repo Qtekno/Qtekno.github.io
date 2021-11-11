@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cli on QTech</title>
+    <link>https://Qtekno.github.io/tags/cli/</link>
+    <description>Recent content in cli on QTech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://Qtekno.github.io/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Perintah Melihat Hardware</title>
+      <link>https://Qtekno.github.io/2021-11-07-perintah-melihat-hardware/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-perintah-melihat-hardware/</guid>
+      <description>Linux sebagai sistem operasi telah dilengkapi berbagai utilitas untuk melakukan tugas tertentu, salah satunya adalah utilitas untuk melihat system linux termasuk informasi hardaware di sistem Linux yang digunakan. Berikut ini beberapa perintah untuk menampilkan informasi hadware mesin (komputer) secara detail yang perlu kita ketahui.
+Informasi tentang CPU Untuk melihat spesifikasi cpu, kita dapat menggunakan perintah:
+ cat /proc/cpuinfo lscpu  $ cat /etc/cpuinfo vendor_id	: AuthenticAMD cpu family	: 21 model	: 112 model name	: AMD A9-9425 RADEON R5, 5 COMPUTE CORES 2C+3G stepping	: 0 microcode	: 0x6006704 cpu MHz	: 1906.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stream on QTech</title>
+    <link>https://Qtekno.github.io/tags/stream/</link>
+    <description>Recent content in stream on QTech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://Qtekno.github.io/tags/stream/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redirection 1</title>
+      <link>https://Qtekno.github.io/2021-11-07-redirection/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-redirection/</guid>
+      <description>Salah satu kekuatan terbesar dari UNIX/ Linux adalah kemampuannya untuk memanipulasi teks dan stream yang tidak dipunyai oleh sistem operasi Windows. Linux Engineer wajib hukumnya untuk menguasai cara memanipulasi teks (stream) melalui CLI. Untuk sementara tinggalkan dahulu interface GUI lalu rasakan kekuatan Linux yang sebenarnya.
+Linux memiliki special device untuk I/O, yaitu standard input atau stdin, standard ouput disebut stdout, dan standard error atau stderr.
+ Shell mengambil input dari stdin (stream 0) dan mengirimkan output ke stdout (stream 1) dan pesan error ke stderr (stream 2) Keyboard berfungsi sebagai stdin.</description>
+    </item>
+    
+  </channel>
+</rss>

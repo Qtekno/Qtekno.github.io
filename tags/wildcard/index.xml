@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wildcard on QTech</title>
+    <link>https://Qtekno.github.io/tags/wildcard/</link>
+    <description>Recent content in wildcard on QTech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://Qtekno.github.io/tags/wildcard/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eksplorasi dengan Wildcard</title>
+      <link>https://Qtekno.github.io/2021-11-07-eksplorasi-dengan-wildcard/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-eksplorasi-dengan-wildcard/</guid>
+      <description>Berikut beberapa contoh eksplorasi yang bisa dilakukan pada wildcard di Linux. Memanfaatkan fitur wildcard membuat pekerjaan menjadi lebih efektif.
+$ rm * $ mv *linux .html dir1 $ less d*.txt $ rm junk.??? $ ls hda[0-9] $ ls hda[0-9][0-9] Penjelasan perintah di atas:
+ Perintah untuk menghapus seluruh file di direktori aktif. Hati-hati dalam menggunakan perintah ini, karena kesalahan menentukan direktori aktif akan berakibat fatal. File yang terhapus tidak dapat dikembalikan (undelete).</description>
+    </item>
+    
+    <item>
+      <title>Kerja Efisien dengan Wildcard</title>
+      <link>https://Qtekno.github.io/2021-11-07-kerja-efisien-dengan-wildcard/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-kerja-efisien-dengan-wildcard/</guid>
+      <description>Wildcard adalah fitur yang membuat CLI lebih powerfull dibandingkan dengan file manager GUI. Wildcard adalah karakter khusus yang memungkinkan kita memilih nama file yang cocok dengan pola tertentu dari karakter. Cara ini lebih mudah dan cepat dibandingkan menggunakan mouse!
+Wildcard (seringkali juga disebut sebagai karakter meta) merupakan simbol atau karakter khusus yang mewakili karakter lain. Kita dapat menggunakannya dengan perintah apa pun seperti perintah ls atau perintah rm untuk membuat daftar atau menghapus file yang cocok dengan kriteria tertentu, secara reseptif.</description>
+    </item>
+    
+  </channel>
+</rss>

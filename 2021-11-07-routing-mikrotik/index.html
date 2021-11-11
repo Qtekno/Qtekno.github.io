@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo 0.89.0" />
+  <link rel="stylesheet" href="https://Qtekno.github.io/css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+  
+  
+  <link rel="stylesheet" href="https://Qtekno.github.io/css/cayman.c4f79ffddc7a96ac05f73e18e2ec31d562450420cb5377546f3e7ed7cf332ed0.css">
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+  <title>Routing Mikrotik | QTech</title>
+</head>
+
+<body>
+  <section class="page-header">
+  <h1 class="project-name">
+    QTekno
+  </h1>
+  <h2 class="project-tagline">
+    Pemerhati Open Source | R | WSN | Mikrotik | Linux
+  </h2>
+  <nav>
+    
+    
+      
+      
+      
+      
+      <a href="/about/" class="btn">About</a>
+    
+      
+      
+      
+      
+      <a href="/" class="btn">Blog</a>
+    
+      
+      
+      
+      
+      <a href="/categories/" class="btn">Categories</a>
+    
+      
+      
+      
+      
+      <a href="/tags/" class="btn">Tags</a>
+    
+      
+      
+      
+      
+      <a href="/wsn/" class="btn">WSN</a>
+    
+      
+      
+      
+      
+      <a href="/gclass/" class="btn">GClass</a>
+    
+  </nav>
+</section>
+
+  <section class="main-content">
+    
+  <h1>Routing Mikrotik</h1>
+  <div>
+    
+    <strong>Publish date: </strong>2021-11-07
+  </div>
+  
+  
+    <div>
+      <strong>Tags: </strong>
+      
+        
+        
+        
+      
+      <a href="https://Qtekno.github.io/tags/routing/">routing</a>
+    </div>
+  
+  <p>Tidak ada yang lebih mengasikkan sekaligus <em>menjengkelkan</em> diantara tugas-tugas administrator jaringan selain merancang dan mengkonfigurasi routing untuk kebutuhan jaringan yang dikelolanya. Pemahaman routing merupakan hal mendasar dalam perancangan jaringan.</p>
+<p>Perancangan jaringan yang sederhana maupun jaringan yang komplek, keduanya menggunakan konsep dasar IP routing yang tidak berbeda yaitu bagaimana memilih dan menetapkan address agar bisa mencapai tujuan dengan tepat dan efisien. Routing merupakan sebuah mekanisme pengiriman paket (data) yang ditransmisikan dari satu network ke network yang lain atau dari host sumber (src) ke host tujuan (dst).</p>
+<p>Routing adalah proses penentuan jalur yang terbaik (best path) untuk mencapai suatu network tujuan. Jika merefer pada model OSI, maka proses routing terjadi pada Layer 3 (Network Layer). Karena terjadi pada Layer Network, maka proses routing erat kaitannya dengan pengalamatan logika atau IP Address. Routing merupakan tugas terpenting yang dilakukan protokol IP. Teknik routing (membangun tabel routing) dapat dilakukan dengan dua cara yakni : (1) <em>teknik routing statik</em> dan  (2) <em>teknik routing dinamik</em>.</p>
+<p>Routing static adalah sebuah teknik routing yang dilakukan dengan memasukkan entry route ke network tujuan (remote network) ke dalam tabel routing secara manual oleh administrator jaringan. Bila sebuah router memiliki satu remote network, maka administrator jaringan harus memasukkan satu entry route ke network tersebut. Dalam memasukkan enty route administrator harus mengetahui dengan pasti gateway yang akan digunakan untuk menapai remote network. Untuk jaringan yang terdiri dari beberapa router, maka penentuan gateway maupun jalur (path) harus dilakukan dengan baik.</p>
+<p>Routing dynamic merupakan teknik routing dimana router akan memasukkan sendiri enty route ke dalam tabel routing, dengan cara router melakukan pertukaran informasi tentang jaringan yang mereka ketahui masing – masing. Setelah mempelajari keberadaan jaringan yang lain serta cara mencapai jaringan tersebut, router akan membuat entry route dan pada akhirnya memasukkanya ke dalam tabel routing.</p>
+<h2 id="penutup">Penutup</h2>
+<p>Routing adalah suatu proses untuk pemilihan jalur terbaik untuk meneruskan paket paket dari satu jaringan ke jaringan lainnya. Ada 2 teknik routing, yakni, routing static dan dynamic. Berikut ini perbedaan yang spesifik untuk kedua jenis routing:</p>
+<p><strong>Routing Static:</strong></p>
+<ol>
+<li>Berfungsi pada protocol IP</li>
+<li>Router tidak dapat membagi informasi routing</li>
+<li>Routing table dibuat dan dihapus secara manual</li>
+<li>Tidak menggunakan routig protocol</li>
+<li>Tidak terlalu banyak memakan sumber daya perangkat router.</li>
+</ol>
+<p><strong>Routing Dynamic:</strong></p>
+<ol>
+<li>Berfungsi pada inter-routing protocol</li>
+<li>Router membagi informasi routing secara otomatis</li>
+<li>Routing table dibuat dan dihapus secara otomatis</li>
+<li>Terdapat routing protocol, seperti RIP atau OSPF</li>
+<li>Lebih banyak memakan sumber daya perangkat router</li>
+</ol>
+<p>Sekian artikel tentang routing, semoga bermanfaat.</p>
+<p>(diambil dari beberapa sumber)</p>
+
+  
+
+  
+
+
+
+    <footer class="site-footer">
+  <span class="site-footer-credits">
+    QTech.inc 2021
+  </span>
+</footer>
+
+  </section>
+  
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-123456789-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>routing on QTech</title>
+    <link>https://Qtekno.github.io/tags/routing/</link>
+    <description>Recent content in routing on QTech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://Qtekno.github.io/tags/routing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Routing Mikrotik</title>
+      <link>https://Qtekno.github.io/2021-11-07-routing-mikrotik/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-routing-mikrotik/</guid>
+      <description>Tidak ada yang lebih mengasikkan sekaligus menjengkelkan diantara tugas-tugas administrator jaringan selain merancang dan mengkonfigurasi routing untuk kebutuhan jaringan yang dikelolanya. Pemahaman routing merupakan hal mendasar dalam perancangan jaringan.
+Perancangan jaringan yang sederhana maupun jaringan yang komplek, keduanya menggunakan konsep dasar IP routing yang tidak berbeda yaitu bagaimana memilih dan menetapkan address agar bisa mencapai tujuan dengan tepat dan efisien. Routing merupakan sebuah mekanisme pengiriman paket (data) yang ditransmisikan dari satu network ke network yang lain atau dari host sumber (src) ke host tujuan (dst).</description>
+    </item>
+    
+  </channel>
+</rss>

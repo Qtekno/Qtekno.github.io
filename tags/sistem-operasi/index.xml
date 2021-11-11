@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sistem operasi on QTech</title>
+    <link>https://Qtekno.github.io/tags/sistem-operasi/</link>
+    <description>Recent content in sistem operasi on QTech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://Qtekno.github.io/tags/sistem-operasi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pengantar Sistem Operasi</title>
+      <link>https://Qtekno.github.io/2021-11-07-pengantar-sistem-operasi/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-pengantar-sistem-operasi/</guid>
+      <description>Sistem Operasi merupakan seperangkat program yang mengelola sumber daya, perangkat keras sistem komputer dan menyediakan layanan umum untuk aplikasi perangkat lunak
+ Komputer modern merupakan sistem yang kompleks. Secara fisik kita dapat melihat komponen komputer seperti: prosesor, memori, disk, printer serta perangkat lainnya. Perangkat keras tersebut hanyalah salah satu komponen dari sebuah “sistem komputer”. Komponen Sistem Komputer lainnya, adalah Perangkat Lunak dan Users. Perangkat keras tidak akan dapat berbuat apa apa tanpa adanya perangkat lunak.</description>
+    </item>
+    
+  </channel>
+</rss>

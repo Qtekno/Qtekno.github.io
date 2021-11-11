@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on QTech</title>
+    <link>https://Qtekno.github.io/</link>
+    <description>Recent content in Blog on QTech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://Qtekno.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pengenalan ggplot2 Bag. 1</title>
+      <link>https://Qtekno.github.io/2021-11-11-pengenalan-ggplot2-1/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-11-pengenalan-ggplot2-1/</guid>
+      <description>Analisis statistik sederhana dapat memberikan deskripsi tentang karakteristik dari data dalam dataset. Analisis ini bertujuan untuk dapat mengeksplorasi data dan menemukan hubungan antarvariabel yang mungkin ada.
+Eksplorasi data merupakan langkah awal dalam analisis data yang melibatkan rangkuman karakteristik utama dari set data termasuk ukurannya, pola awal dalam data dan atribut-atrubut lainnya. Eksplorasi data merupakan teknik yang cukup sederhana tetapi sangat powerfull dari segi manfaat.
+Eksplorasi data tidak hanya dilakukan dengan mengukur frekuensi, ukuran pemusatan (mean,modus,median, max, min dll), ukuran penyebaran (standar deviasi, varians, dll) tetapi perlu melihat visualisasi dari data tersebut.</description>
+    </item>
+    
+    <item>
+      <title>Pengenalan ggplot2 Bag. 2</title>
+      <link>https://Qtekno.github.io/2021-11-11-pengenalan-ggplot2-2/</link>
+      <pubDate>Thu, 11 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-11-pengenalan-ggplot2-2/</guid>
+      <description>ggplot2 merupakan paket di R yang bebas diunduh dan digunakan untuk membuat berbagai bentuk grafik. Untuk memasang ggplot2, cukup memasang R, RStudio, kemudian menulis perintah:
+install.packages(&amp;quot;ggplot2&amp;quot;) library(ggplot2) ggplot2 adalah salah satu package yang banyak digunakan oleh pengguna R untuk kebutuhan visualisasi. ggplot2 didesain untuk bekerja secara iteratif. Kata ggplot sendiri merupakan kependekan dari 8grammar of graphics plot*. Terdapat dua fungsi utama yang digunakan untuk visualisasi data.
+Fungsi qplot(), yang merupakan kependekan dari quick-plot.</description>
+    </item>
+    
+    <item>
+      <title>Eksplorasi dengan Wildcard</title>
+      <link>https://Qtekno.github.io/2021-11-07-eksplorasi-dengan-wildcard/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-eksplorasi-dengan-wildcard/</guid>
+      <description>Berikut beberapa contoh eksplorasi yang bisa dilakukan pada wildcard di Linux. Memanfaatkan fitur wildcard membuat pekerjaan menjadi lebih efektif.
+$ rm * $ mv *linux .html dir1 $ less d*.txt $ rm junk.??? $ ls hda[0-9] $ ls hda[0-9][0-9] Penjelasan perintah di atas:
+ Perintah untuk menghapus seluruh file di direktori aktif. Hati-hati dalam menggunakan perintah ini, karena kesalahan menentukan direktori aktif akan berakibat fatal. File yang terhapus tidak dapat dikembalikan (undelete).</description>
+    </item>
+    
+    <item>
+      <title>grep atau egrep</title>
+      <link>https://Qtekno.github.io/2021-11-07-grep-atau-egrep/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-grep-atau-egrep/</guid>
+      <description>Linux Regular Expressions are special characters which help search data and matching complex patterns. Regular expressions are shortened as &amp;lsquo;RegExp&amp;rsquo; or &amp;lsquo;RegEx&amp;rsquo;. They are used in many Linux programs like grep, bash, rename, sed, etc.
+ Regular expression atau lebih dikenal dengan RegEx (RegExp) merupakan &amp;ldquo;alat&amp;rdquo; ampuh untuk manipulasi teks dan data. RegEx, dapat menghemat waktu dan tenaga dalam menangani dokumen, baik file log, e-mail, maupun berbagai tipe teks dan data.</description>
+    </item>
+    
+    <item>
+      <title>IP Address 1</title>
+      <link>https://Qtekno.github.io/2021-11-07-ip-address-1/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-ip-address-1/</guid>
+      <description>di dalam sebuah jaringan, setiap komputer atau node yang terhubung tidak boleh memiliki IP Address yang sama
+ TCP/IP merupakan protokol resmi untuk aplikasi internet sejak tahun 1983 hingga sekarang. Dalam Protokol TCP/IP, setiap host yang terhubung ke internet harus memiliki IP Address sebagai alat pengenal host pada network.
+IP address singkatan dari Internet Protokol Address. IP address adalah alamat identifikasi unik yang dimiliki oleh setiap komputer (host) dan perangkat lainnya yang terhubung di dalam jaringan komputer yang menggunakan protokol jaringan TCP/IP.</description>
+    </item>
+    
+    <item>
+      <title>IP Address 2</title>
+      <link>https://Qtekno.github.io/2021-11-07-ip-address-2/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-ip-address-2/</guid>
+      <description>Dalam dunia Jaringan Komputer dikenal 2 jenis model networking, yaitu Model Referensi OSI dan Model TCP/IP.
+Model OSI mendefinisikan framework networking dalam bentuk 7 layer. Kontrol data diserahkan dari satu layer ke layer berikutnya, mulai dari layer aplikasi turun sampai layer terendah (layer fisik). Kontrol data kemudian dikirimkan melintasi koneksi fisik antara setiap titik sepanjang jalur perjalanan kemudian diserahkan kepada ke layer paling atas pada komputer penerima. OSI sendiri merupakan singkatan dari Open System Interconnection.</description>
+    </item>
+    
+    <item>
+      <title>Kerja Efisien dengan Wildcard</title>
+      <link>https://Qtekno.github.io/2021-11-07-kerja-efisien-dengan-wildcard/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-kerja-efisien-dengan-wildcard/</guid>
+      <description>Wildcard adalah fitur yang membuat CLI lebih powerfull dibandingkan dengan file manager GUI. Wildcard adalah karakter khusus yang memungkinkan kita memilih nama file yang cocok dengan pola tertentu dari karakter. Cara ini lebih mudah dan cepat dibandingkan menggunakan mouse!
+Wildcard (seringkali juga disebut sebagai karakter meta) merupakan simbol atau karakter khusus yang mewakili karakter lain. Kita dapat menggunakannya dengan perintah apa pun seperti perintah ls atau perintah rm untuk membuat daftar atau menghapus file yang cocok dengan kriteria tertentu, secara reseptif.</description>
+    </item>
+    
+    <item>
+      <title>Manfaat Belajar R</title>
+      <link>https://Qtekno.github.io/2021-11-07-belajar-r/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-belajar-r/</guid>
+      <description>Matakuliah Probabilitas &amp;amp; Statistika, Data Mining mengajak kita belajar untuk membaca data, analisa, interpretasi, serta belajar dasar-dasar pemrograman R sebagai bekal dasar di dunia Data Science atau mechine learning.
+ Tentunya kita sudah atau sering mendengar bahasa pemrograman seperti C, C++, Python, Javascript, Java, PHP, SQL dengan keistemewaannya masing-masing. R merupakan aplikasi dan sekaligus bahasa pemrograman. Dengan mempelajari bahasa R, kalian akan mendapatkan manfaat dan fungsi:
+ Manajemen data. R dapat melakukan import data, assessment kualitas data dengan mengidentifikasi outliers, observasi data, penggabungan data dan penyusunan data.</description>
+    </item>
+    
+    <item>
+      <title>Mengenal R</title>
+      <link>https://Qtekno.github.io/2021-11-07-mengenal-r/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-mengenal-r/</guid>
+      <description>“R is a scripting language for statistical data manipulation and analysis. It was inspired by, and is mostly compatible with, the statistical language S developed by AT&amp;amp;T.The name S, obviously standing for statistics, was an allusion to another programming language developed at AT&amp;amp;T with a one-letter name, C. S later was sold to a small firm, which added a GUI interface and named the result S-Plus. (Norman Matloff, The Art of R Programming)</description>
+    </item>
+    
+    <item>
+      <title>Pengantar Sistem Operasi</title>
+      <link>https://Qtekno.github.io/2021-11-07-pengantar-sistem-operasi/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-pengantar-sistem-operasi/</guid>
+      <description>Sistem Operasi merupakan seperangkat program yang mengelola sumber daya, perangkat keras sistem komputer dan menyediakan layanan umum untuk aplikasi perangkat lunak
+ Komputer modern merupakan sistem yang kompleks. Secara fisik kita dapat melihat komponen komputer seperti: prosesor, memori, disk, printer serta perangkat lainnya. Perangkat keras tersebut hanyalah salah satu komponen dari sebuah “sistem komputer”. Komponen Sistem Komputer lainnya, adalah Perangkat Lunak dan Users. Perangkat keras tidak akan dapat berbuat apa apa tanpa adanya perangkat lunak.</description>
+    </item>
+    
+    <item>
+      <title>Perintah Melihat Hardware</title>
+      <link>https://Qtekno.github.io/2021-11-07-perintah-melihat-hardware/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-perintah-melihat-hardware/</guid>
+      <description>Linux sebagai sistem operasi telah dilengkapi berbagai utilitas untuk melakukan tugas tertentu, salah satunya adalah utilitas untuk melihat system linux termasuk informasi hardaware di sistem Linux yang digunakan. Berikut ini beberapa perintah untuk menampilkan informasi hadware mesin (komputer) secara detail yang perlu kita ketahui.
+Informasi tentang CPU Untuk melihat spesifikasi cpu, kita dapat menggunakan perintah:
+ cat /proc/cpuinfo lscpu  $ cat /etc/cpuinfo vendor_id	: AuthenticAMD cpu family	: 21 model	: 112 model name	: AMD A9-9425 RADEON R5, 5 COMPUTE CORES 2C+3G stepping	: 0 microcode	: 0x6006704 cpu MHz	: 1906.</description>
+    </item>
+    
+    <item>
+      <title>Redirection 1</title>
+      <link>https://Qtekno.github.io/2021-11-07-redirection/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-redirection/</guid>
+      <description>Salah satu kekuatan terbesar dari UNIX/ Linux adalah kemampuannya untuk memanipulasi teks dan stream yang tidak dipunyai oleh sistem operasi Windows. Linux Engineer wajib hukumnya untuk menguasai cara memanipulasi teks (stream) melalui CLI. Untuk sementara tinggalkan dahulu interface GUI lalu rasakan kekuatan Linux yang sebenarnya.
+Linux memiliki special device untuk I/O, yaitu standard input atau stdin, standard ouput disebut stdout, dan standard error atau stderr.
+ Shell mengambil input dari stdin (stream 0) dan mengirimkan output ke stdout (stream 1) dan pesan error ke stderr (stream 2) Keyboard berfungsi sebagai stdin.</description>
+    </item>
+    
+    <item>
+      <title>Routing Mikrotik</title>
+      <link>https://Qtekno.github.io/2021-11-07-routing-mikrotik/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-routing-mikrotik/</guid>
+      <description>Tidak ada yang lebih mengasikkan sekaligus menjengkelkan diantara tugas-tugas administrator jaringan selain merancang dan mengkonfigurasi routing untuk kebutuhan jaringan yang dikelolanya. Pemahaman routing merupakan hal mendasar dalam perancangan jaringan.
+Perancangan jaringan yang sederhana maupun jaringan yang komplek, keduanya menggunakan konsep dasar IP routing yang tidak berbeda yaitu bagaimana memilih dan menetapkan address agar bisa mencapai tujuan dengan tepat dan efisien. Routing merupakan sebuah mekanisme pengiriman paket (data) yang ditransmisikan dari satu network ke network yang lain atau dari host sumber (src) ke host tujuan (dst).</description>
+    </item>
+    
+    <item>
+      <title>..saat akan mulai..</title>
+      <link>https://Qtekno.github.io/about/</link>
+      <pubDate>Sun, 01 Aug 2021 15:43:52 +0700</pubDate>
+      
+      <guid>https://Qtekno.github.io/about/</guid>
+      <description>Salam sehat,
+Kita telah memasuki TA Baru 2021-2022 dengan suasana yang tidak berbeda dengan TA Sebelumnya. Tidak lupa saya ucapkan selamat datang kepada rekan-rekan mahasiswa baru Angkatan 58 dan tak lupa saya ucapkan juga kepada mahasiswa Angkatan 57 yang telah menapaki satu tahun di Sekolah Vokasi IPB.
+Khusus bagi mahasiswa Angkatan 56, (mungkin) ini tahun akademik yang berat. Persiapkan mental dan fisik kalian. Segala kesabaran, keuletan, keikhlasan akan diuji di tahun ini.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>https://Qtekno.github.io/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>https://Qtekno.github.io/2020-12-01-r-rmarkdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.</description>
+    </item>
+    
+    <item>
+      <title>NASA Images</title>
+      <link>https://Qtekno.github.io/nasa-images/</link>
+      <pubDate>Thu, 27 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/nasa-images/</guid>
+      <description>The below images are from the NASA Image and Video Library &amp;ndash; indulge yourself, revel in their beauty. Also, the built-in figure shortcode is shown for each image.
+ {{&amp;lt; figure img=&amp;quot;sun.jpg&amp;quot; caption=&amp;quot;The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, with internal convective motion that generates a magnetic field via a dynamo process. It is by far the most important source of energy for life on Earth.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://Qtekno.github.io/gclass/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/gclass/</guid>
+      <description>Sengaja saya jadikan dalam 1 menu untuk menuju kelas-kelas yang diampu. Untuk Mata kuliah Aplikom, Sistem Operasi, Instalasi dan Perawatan Komputer silahkan klik pada tautan berikut ini:
+Catatan: untuk masuk ke google class, gunakan akun gmail pribadi selain .apps. Silahkan klik sesuai dengan mata kuliah.
+ GClass Aplikom GClass Sistem Operasi GClass Instalasi dan Perawatan Komputer  </description>
+    </item>
+    
+  </channel>
+</rss>

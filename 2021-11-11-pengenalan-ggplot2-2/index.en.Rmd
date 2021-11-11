@@ -1,0 +1,70 @@
+---
+title: Pengenalan ggplot2 Bag. 2
+author: bayuwi
+date: '2021-11-11'
+slug: pengenalan-ggplot2-bag-2
+categories:
+  - R
+tags:
+  - ggplot2
+---
+
+ggplot2 merupakan paket di R yang bebas diunduh dan digunakan untuk membuat berbagai bentuk grafik. Untuk memasang ggplot2, cukup memasang R, RStudio, kemudian menulis perintah:
+
+```bash
+install.packages("ggplot2")
+library(ggplot2)
+```
+
+ggplot2 adalah salah satu package yang banyak digunakan oleh pengguna R untuk kebutuhan visualisasi. ggplot2 didesain untuk bekerja secara iteratif. Kata ggplot sendiri merupakan kependekan dari 8grammar of graphics plot*. Terdapat dua fungsi utama yang digunakan untuk visualisasi data. 
+
+1. Fungsi qplot(), yang merupakan kependekan dari quick-plot. Penggunaan qplot() sendiri tidak terlalu banyak, bahkan pembuatnya sendiri mengatakan bahwa qplot() dibuat untuk mereka yang memang sudah sangat terbiasa menggunakan fungsi plot() pada base R.
+2. Fungsi kedua, dan yang paling sering digunakan, adalah ggplot(). Perbedaan yang paling mencolok dari fungsi qplot() dan ggplot() adalah tipe data yang dapat digunakan. Fungsi qplot() dapat menggunakan vector atau dataframe, sedangkan ggplot() hanya menerima dataframe. Fungsi-fungsi pada ggplot2 berperan sebagai layer yang ditandai dengan +.
+
+Kenapa menggunaka ggplot?
+
+1. Sangat Flexible dan komplit
+2. Mengimplementasikan "Grammar Graphics"
+3. Bekerja dalam layer/ lapisan
+4. Grafik yang dihasilkan sangat bagus
+
+Secara umum visualisasi menggunakan ggplot() adalah sebagai berikut.
+
+```bash
+ggplot(data = <DATA>, mapping = aes(x = <VAR>, y = <VAR>)) + <GEOM_FUNCTION>()
+```
+
+Dari syntax di atas dapat dipahami bahwa setiap grafik yang dihasilkan oleh package ggplot2 memiliki 2 komponen utama, yakni:
+
+1. Data dan aesthetics. Merupakan sekumpulan opsi untuk menampilkan variabel yang terdapat di data dan opsi grafik lainnya.
+2. Geometric objek (fungsi geom). Minimal terdapat satu layer/ lapisan yang mendsikripsikan bagaimana data tersebut akan ditampilkna.
+
+## Aesthetic Mapping
+
+Di dalam ggplot2 fungsi aesthetics(aes()) digunakan untuk memformat apa saja yang ingin ditampilkan. Argumen yang terdapat di dalam fungsi ini adalah:
+
+1. position (posisi pada sumbu-x dan sumbu-y)
+2. color (warna batas/ border)
+3. fill (warna isi)
+4. shape (bentuk)
+5. linetype
+6. size
+7. position adjusment
+8. faceting
+
+## Geom_Function():
+
+1. Diagram Garis   
+   - Gunakan geom_line untuk diagram garis
+   - Gunakan aestetik col untuk membedakan grafik dengan warna garis
+2. Histogram   
+   - Gunakan geom_hist untuk menggambarkan distribusi frekuensi variabel dengan histogram.
+   - facet_wrap bisa digunakan untuk memisahkan grafik berdasar nilai variabel tertentu.
+3. Scatter Plot
+   - Untuk menampilkan seluruh titik yang menghubungkan nilai kedua variabel, gunakan geom_point.
+   - Gunakan geom_smooth untuk menambahkan garis trend secara otomatis. geom_smooth secara default menggunakan metode loess untuk menggambar garis trend.
+4. Mengubah jadi Grafik Interaktif   
+   - Gunakan plotly::ggplotly untuk mengubah grafik ggplot menjadi interaktif.
+   
+
+

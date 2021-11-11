@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CRAN on QTech</title>
+    <link>https://Qtekno.github.io/tags/cran/</link>
+    <description>Recent content in CRAN on QTech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://Qtekno.github.io/tags/cran/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mengenal R</title>
+      <link>https://Qtekno.github.io/2021-11-07-mengenal-r/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-mengenal-r/</guid>
+      <description>“R is a scripting language for statistical data manipulation and analysis. It was inspired by, and is mostly compatible with, the statistical language S developed by AT&amp;amp;T.The name S, obviously standing for statistics, was an allusion to another programming language developed at AT&amp;amp;T with a one-letter name, C. S later was sold to a small firm, which added a GUI interface and named the result S-Plus. (Norman Matloff, The Art of R Programming)</description>
+    </item>
+    
+  </channel>
+</rss>

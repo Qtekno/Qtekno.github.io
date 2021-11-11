@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IPV4 on QTech</title>
+    <link>https://Qtekno.github.io/tags/ipv4/</link>
+    <description>Recent content in IPV4 on QTech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://Qtekno.github.io/tags/ipv4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IP Address 1</title>
+      <link>https://Qtekno.github.io/2021-11-07-ip-address-1/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-ip-address-1/</guid>
+      <description>di dalam sebuah jaringan, setiap komputer atau node yang terhubung tidak boleh memiliki IP Address yang sama
+ TCP/IP merupakan protokol resmi untuk aplikasi internet sejak tahun 1983 hingga sekarang. Dalam Protokol TCP/IP, setiap host yang terhubung ke internet harus memiliki IP Address sebagai alat pengenal host pada network.
+IP address singkatan dari Internet Protokol Address. IP address adalah alamat identifikasi unik yang dimiliki oleh setiap komputer (host) dan perangkat lainnya yang terhubung di dalam jaringan komputer yang menggunakan protokol jaringan TCP/IP.</description>
+    </item>
+    
+    <item>
+      <title>IP Address 2</title>
+      <link>https://Qtekno.github.io/2021-11-07-ip-address-2/</link>
+      <pubDate>Sun, 07 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://Qtekno.github.io/2021-11-07-ip-address-2/</guid>
+      <description>Dalam dunia Jaringan Komputer dikenal 2 jenis model networking, yaitu Model Referensi OSI dan Model TCP/IP.
+Model OSI mendefinisikan framework networking dalam bentuk 7 layer. Kontrol data diserahkan dari satu layer ke layer berikutnya, mulai dari layer aplikasi turun sampai layer terendah (layer fisik). Kontrol data kemudian dikirimkan melintasi koneksi fisik antara setiap titik sepanjang jalur perjalanan kemudian diserahkan kepada ke layer paling atas pada komputer penerima. OSI sendiri merupakan singkatan dari Open System Interconnection.</description>
+    </item>
+    
+  </channel>
+</rss>

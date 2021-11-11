@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo 0.89.0" />
+  <link rel="stylesheet" href="https://Qtekno.github.io/css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+  
+  
+  <link rel="stylesheet" href="https://Qtekno.github.io/css/cayman.c4f79ffddc7a96ac05f73e18e2ec31d562450420cb5377546f3e7ed7cf332ed0.css">
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+  <title>IP Address 2 | QTech</title>
+</head>
+
+<body>
+  <section class="page-header">
+  <h1 class="project-name">
+    QTekno
+  </h1>
+  <h2 class="project-tagline">
+    Pemerhati Open Source | R | WSN | Mikrotik | Linux
+  </h2>
+  <nav>
+    
+    
+      
+      
+      
+      
+      <a href="/about/" class="btn">About</a>
+    
+      
+      
+      
+      
+      <a href="/" class="btn">Blog</a>
+    
+      
+      
+      
+      
+      <a href="/categories/" class="btn">Categories</a>
+    
+      
+      
+      
+      
+      <a href="/tags/" class="btn">Tags</a>
+    
+      
+      
+      
+      
+      <a href="/wsn/" class="btn">WSN</a>
+    
+      
+      
+      
+      
+      <a href="/gclass/" class="btn">GClass</a>
+    
+  </nav>
+</section>
+
+  <section class="main-content">
+    
+  <h1>IP Address 2</h1>
+  <div>
+    
+    <strong>Publish date: </strong>2021-11-07
+  </div>
+  
+  
+    <div>
+      <strong>Tags: </strong>
+      
+        
+        
+        
+      
+      <a href="https://Qtekno.github.io/tags/ipv4/">IPV4</a>
+    </div>
+  
+  <p>Dalam dunia Jaringan Komputer dikenal 2 jenis model networking, yaitu Model Referensi OSI dan Model TCP/IP.</p>
+<p>Model OSI mendefinisikan framework networking dalam bentuk 7 layer. Kontrol data diserahkan dari satu layer ke layer berikutnya, mulai dari layer aplikasi turun sampai layer terendah (layer fisik). Kontrol data kemudian dikirimkan melintasi koneksi fisik antara setiap titik sepanjang jalur perjalanan kemudian diserahkan kepada ke layer paling atas pada komputer penerima. OSI sendiri merupakan singkatan dari Open System Interconnection. Model ini disebut juga dengan model Model tujuh lapis OSI&quot; (OSI seven layer model)</p>
+<p>Model TCP/IP (Transmission Control Protocol and Internet Protocol) adalah standar komunikasi data yang digunakan oleh komunitas internet dalam proses tukar-menukar data dari satu komputer ke komputer lain di dalam jaringan Internet. Protokol TCP/IP dikembangkan pada akhir dekade 1970-an hingga awal 1980-an sebagai sebuah protokol standar untuk menghubungkan komputer-komputer dan jaringan untuk membentuk sebuah jaringan yang luas (WAN).</p>
+<p>TCP/IP merupakan sebuah standar jaringan terbuka yang bersifat independen terhadap mekanisme transport jaringan fisik yang digunakan, sehingga dapat digunakan di mana saja. Protokol TCP/IP menggunakan skema pengalamatan yang sederhana yang disebut sebagai alamat IP (IP Address) yang mengizinkan komputer untuk dapat saling berhubungan satu sama lainnya di Internet. IP juga bersifat routable yang berarti protokol ini cocok untuk menghubungkan sistem-sistem berbeda (seperti Microsoft Windows dan keluarga UNIX) untuk membentuk jaringan yang heterogen.</p>
+<p>Sistem protokol TCP/IP dibagi-bagi menjadi 4 (atau 5) layer yang masing-masing menjalankan tugas yang spesifik. Model berupa protocol stack (tumpukan protokol layer) ini bermula sejak pertama kali TCP/IP dibuat. Berikut adalah layer-layer protokol TCP/IP secara official. Sistem 4 Layer tersebut adalah:</p>
+<ol>
+<li>Network Interface Layer (Physical Layer dan Datalink Layer)</li>
+<li>Network Layer</li>
+<li>Transport Layer</li>
+<li>Application Layer</li>
+</ol>
+<p>Dalam jaringan model TCP/IP dikenal 3 alamat yakni: <span  style="color:green;">physical address, Logical Address (IP address) dan port address</span>. Berikut penjelasannya:</p>
+<p><img src="/images/ipaddress/address_2.png#center" alt="Sistem Komputer"></p>
+<ol>
+<li>Pysical Address (tergantung NIC) - Pengalamatan Layer 2 OSI</li>
+</ol>
+<p>Alamat fisik adalah system pengalamatan pada jaringan komputer yang dikenal dengan nama Media Access Control Address atau MAC address. Disebut dengan MAC Address karena alamat ini di hard-code ke dalam network interface controller (NIC) dari perangkat layer fisik yang terhubung pada network.</p>
+<p>Layer Data Link menggunakan address fisik atau hardware untuk memastikan data diterima pada mesin yang tepat dalam LAN. Setiap MAC address harus unik dan menggunakan format sebagai berikut :</p>
+<ul>
+<li>Terdiri dari 48 bit (6 byte). Penomoran MAC Address Dituliskan dalam bentuk 12 digit hexadecimal (0-9, A-F). Dengan penomoran ini akan hanya membutuhkan 12 field data.</li>
+<li>6 digit hexadecimal pertama dalam address menunjukkan kode vendor atau unique identifier (OUI) dan 6 digit hexadecimal terakhir diberikan oleh pabrik NIC dan harus unik untuk semua nomor yang diberikan oleh pabrik tersebut. Contoh sebuah MAC address dapat berupa 00:00:07:A9:B2:EB. OUI-nya adalah 00:00:07.</li>
+<li>Setiap perangkat komputer dan perangkat jaringan mulai dari router, wifi, smartphone, laptop, server yang terhubung dengan jaringan yang terpasang NIC akan mempunyai MAC address yang berbeda-beda satu sama lain.</li>
+<li>MAC Address adalah sistem pengalamatan yang bersifat permanen dan tertanam pada network interface card dan digunakan pada Layer 2.</li>
+</ul>
+<ol start="2">
+<li>IP Address</li>
+</ol>
+<p>Internet Protocol Address (atau disingkat alamat IP) adalah label numerik yang ditetapkan untuk setiap perangkat yang terhubung ke jaringan komputer yang menggunakan Protokol Internet untuk komunikasi. Alamat IP memiliki dua fungsi utama: host atau identifikasi antarmuka jaringan dan pengalamatan lokasi.</p>
+<p>IP Address merupakan pengalamatan pada Layer 3 OSI (Network Layer) dan dikenal sebagai alamat logika. Administrator jaringan menetapkan alamat IP untuk setiap perangkat yang terhubung ke jaringan. Penugasan semacam itu mungkin bersifat statis (tetap atau permanen) atau dinamis, tergantung pada praktik jaringan dan fitur perangkat lunak.</p>
+<ol start="3">
+<li>Port Address(16 bit)</li>
+</ol>
+<p>Port Address dibutuhkan untuk dapat menjalankan banyak aplikasi/ proses pada saat yang bersamaan. Alamat port digunakan pada Layer 4 OSI (Layer Transport). Alamat nomor port dibatasi dalam 16 bit. Nomor port yang benar berada dalam range 0 s.d 65.535 (2^16 = 65.536). Sehingga secara teori jumlah client yang dapat dihubungkan dengan sebuah server yang sama pada suatu saat tertentu adalah sebanyak 65.536.</p>
+
+  
+
+  
+
+
+
+    <footer class="site-footer">
+  <span class="site-footer-credits">
+    QTech.inc 2021
+  </span>
+</footer>
+
+  </section>
+  
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-123456789-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+</body>
+</html>
